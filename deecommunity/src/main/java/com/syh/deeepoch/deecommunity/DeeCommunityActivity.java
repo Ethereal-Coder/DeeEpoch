@@ -6,7 +6,9 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
+import com.alibaba.android.arouter.facade.annotation.Route;
 
+@Route(path = "/community/main")
 public class DeeCommunityActivity extends AppCompatActivity {
 
   @Override protected void onCreate(Bundle savedInstanceState) {

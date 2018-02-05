@@ -12,7 +12,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import com.alibaba.android.arouter.facade.annotation.Route;
+import com.alibaba.android.arouter.launcher.ARouter;
 
+@Route(path = "/ec/main")
 public class DeeEcActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
   @Override protected void onCreate(Bundle savedInstanceState) {
@@ -85,6 +88,8 @@ public class DeeEcActivity extends AppCompatActivity implements NavigationView.O
 
     } else if (id == R.id.nav_send) {
 
+    }else if (id == R.id.nav_community) {
+      ARouter.getInstance().build("/community/main").navigation();
     }
 
     DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

@@ -37,6 +37,7 @@ dependencies {
   if (!rootProject.ext.isAlone) {
     api project(':deecommunity')
     api project(':deeec')
+    annotationProcessor "com.alibaba:arouter-compiler:$rootProject.ext.libsVersion.arouter_compiler"
   }
   implementation project(':epochcore')
 }

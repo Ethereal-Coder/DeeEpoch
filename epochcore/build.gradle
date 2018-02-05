@@ -49,4 +49,5 @@ dependencies {
   api "com.android.support:support-annotations:$rootProject.ext.libsVersion.supportLibraryVersion"
 
   api "com.android.support:multidex:$rootProject.ext.libsVersion.multidex"
+  api "com.alibaba:arouter-api:$rootProject.ext.libsVersion.arouter_api"
 }
