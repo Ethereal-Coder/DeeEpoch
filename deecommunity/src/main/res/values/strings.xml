@@ -1,0 +1,5 @@
+<resources>
+	<string name="app_name">DeeCommunity</string>
+	<string name="title_activity_dee_community">DeeCommunityActivity</string>
+	<string name="title_activity_community_ghost">CommunityGhostActivity</string>
+</resources>

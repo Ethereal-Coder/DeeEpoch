@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+		package="com.syh.deeepoch.deecommunity">
+
+	<application
+			android:allowBackup="true"
+			android:label="@string/app_name"
+			android:supportsRtl="true">
+		<meta-data android:name="com.syh.deeepoch.deecommunity.CommunityApp"
+			android:value="IComponentConfig"/>
+		<activity
+				android:name=".DeeCommunityActivity"
+				android:label="@string/title_activity_dee_community"
+				android:theme="@style/AppTheme.NoActionBar">
+		</activity>
+	</application>
+
+</manifest>
